@@ -347,15 +347,17 @@ a:visited { color: #fff; }
 }
 
 @media screen and (max-width: 724px) {
-	.site-title { font-size: 16px!important;}
+	.site-title { font-size: 16px!important; }
 	.site-nav { padding-right: 1.5em!important; }
 }
 
 @media screen and (max-width: 640px) {
 
-  .site-header { padding-left: 2em!important; }
+  .site-header { padding-left: 1em!important; }
 
-  #home-hero { top: -17em!important; height: 650px!important; }
+  .site-title { font-size: 16px!important; max-width: 42%; line-height: 16px; margin-top: 1em;}
+
+  #home-hero { background: url('http://i.imgur.com/lj424TF.jpg') no-repeat center fixed; background-size: cover; top: -17em!important; height: 650px!important; }
 
   h1 { padding-top: 5.8em!important; }
 
@@ -509,6 +511,7 @@ p {
 	height: 815px;
 	position: relative;
     background-size: cover;
+    overflow: hidden;
 }
 #home-hero h3 {
     font-family: 'Amatic SC', cursive;
