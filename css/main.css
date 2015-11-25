@@ -341,7 +341,7 @@ a:visited { color: #fff; }
   h3 { font-size: 4em!important; }
   h4 { font-size: 4em!important; }
 
-  #home-hero { height: 460px!important; }
+  #home-hero { background: url('http://i.imgur.com/jQNDTv7.jpg')!important no-repeat center fixed!important; background-repeat: no-repeat!important; top: -17em!important; height: 460px!important; }
   .site-title { font-size: 17px!important; }
 
 }
