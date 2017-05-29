@@ -67,10 +67,14 @@ button:hover {
 
 hr {
 	width: 80%;
-    margin: auto;
-    color: #f5f5f5;
+    margin: 1em;
+    color: #c5c5c5;
     border: 1px solid;
 }
+
+ul { margin: 1em; }
+
+li { color: #1c1c1c; margin-left: 1em; }
 
 /* Utility */
 
@@ -126,7 +130,7 @@ hr {
 /* Site footer */
 
 .site-footer {
-  border-top: 1px solid #f5f5f5;
+  border-top: 1px solid #c5c5c5;
   padding: 30px 0;
 }
 
@@ -215,6 +219,42 @@ hr {
   color: #818181;
 }
 
+
+/* Mailchimp subscribe form */
+/* ----------------------------------------------------------*/
+
+#mc_embed_signup form {
+	text-align: left!important;
+}
+
+#mc_embed_signup input.email {
+	height: 38px!important;
+	border: 2px solid #c5c5c5!important;
+    border-radius: 3px!important;
+    color: #2a2a2a!important;
+    width: 225px!important;
+}
+
+#mc_embed_signup .button {
+    border: 2px solid #1c1c1c!important;
+    border-radius: 3px!important;
+    padding: 6px 11px!important;
+    background: transparent!important;
+    color: #1c1c1c!important;
+    font-size: 16px!important;
+    text-decoration: none!important;
+    line-height: 18px!important;
+    height: 38px!important;
+}
+
+button:hover {
+	cursor: pointer;
+	color: #686868;
+	border: 2px solid #686868;
+	text-decoration: none;
+}
+
+}
 
 /* Post styles */
 /* ----------------------------------------------------------*/
