@@ -88,6 +88,8 @@ li { color: #1c1c1c; margin-left: 1em; }
   zoom: 1;
 }
 
+.sidebar-content-mobile { display: none; }
+
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
@@ -359,16 +361,21 @@ button:hover {
 /* ----------------------------------------------------------*/
 
 
+@media screen and (max-width: 1020px) {
+
+  #mc_embed_signup input.email { width: 100%!important; }
+
+}
+
 @media screen and (max-width: 815px) {
 
-  h1 { font-size: 4em!important; }
-  h2 { font-size: 1.5em!important; padding-top: 2em!important; }
-  h3 { font-size: 1em!important; }
+  h1 { font-size: 18px!important; }
+  h2 { font-size: 1.6em!important; }
+  h3 { font-size: 20px!important; margin-top: 27px!important; }
   h4 { font-size: 1em!important; }
-  p { font-size: .3em; }
-
-  #home-hero { background: #f1f1f1; }
-  .site-title { font-size: 17px!important; }
+  p { font-size: 16px!important; }
+  .main-content { width: 100%!important; }
+  .site-title { font-size: 18px!important; }
 
 }
 
@@ -379,19 +386,18 @@ button:hover {
 
 @media screen and (max-width: 640px) {
 
-  .site-header { padding-left: 1em!important; }
+  body { padding: 0 10%!important; }
 
-  .site-title { font-size: 16px!important; max-width: 42%!important; line-height: 16px!important; margin-top: 1em!important; }
+  .section { padding: 1em 0!important }
 
-  #home-hero { ; }
+  .sidebar-content-mobile {display: block!important; }
+  .sidebar-content { display: none!important; }
 
-  h1 { padding-top: 5.8em!important; }
-
-  h2 { padding-top: 2em!important; }
+  .site-title { font-size: 18px!important; max-width: 42%!important; line-height: 16px!important; margin-top: 1.1em!important; }
 
   .page-link { line-height: 16px!important; display: block!important; margin-top: .7em!important; }
 
-  .trigger { margin-top: 1em!important; }
+  .sidebar-content { width: 100%!important; }
 
   .post-header h1 { font-size: 36px; }
   .post-content h2 { font-size: 28px; }
@@ -406,7 +412,6 @@ button:hover {
     clear: both;
     width: auto;
     margin: 0 0 15px; }
-
 }
 
 .main-content {
